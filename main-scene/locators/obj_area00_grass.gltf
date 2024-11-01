@@ -1,0 +1,1 @@
+{"asset": {"generator": "Khronos glTF Blender I/O v4.1.63", "version": "2.0"}, "scene": 0, "scenes": [{"name": "Scene", "nodes": [0]}], "nodes": [{"name": "obj_grass.001", "rotation": [1, 0, 0, 0], "scale": [-1, -1, -1], "translation": [0, 0, -0.001]}]}

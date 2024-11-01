@@ -1,0 +1,49 @@
+{
+  "name": "daohq-main-scene",
+  "version": "1.0.1",
+  "description": "DAOH HQ Main scene",
+  "scripts": {
+    "prestart": "git rev-parse HEAD > version.txt",
+    "start": "sdk-commands start",
+    "predeploy": "git rev-parse HEAD > version.txt",
+    "deploy": "sdk-commands deploy",
+    "build": "sdk-commands build",
+    "upgrade-sdk": "npm install --save-dev @dcl/sdk@latest",
+    "upgrade-sdk:next": "npm install --save-dev @dcl/sdk@next",
+    "link-sdk": "cd node_modules/@dcl/sdk && npm link && cd ../js-runtime && npm link",
+    "link-shared": "npm link ../shared && cd node_modules/@dcl/sdk && npm link && cd ../js-runtime && npm link && cd ../../../../shared && npm link @dcl/sdk @dcl/js-runtime",
+    "install-shared": "npm i && npm link ../shared && cd node_modules/@dcl/sdk && npm link && cd ../js-runtime && npm link && cd ../../../../shared && npm i && npm link @dcl/sdk @dcl/js-runtime",
+    "clean-links": "npm unlink @dcl/sdk @dcl/js-runtime shared daohq-shared video-streaming dcl-project -g"
+  },
+  "devDependencies": {
+    "@dcl/asset-packs": "^1.19.0",
+    "@dcl/js-runtime": "7.5.6",
+    "@dcl/sdk": "^7.5.6",
+    "@types/html-to-text": "^9.0.4",
+    "@types/marked": "^6.0.0",
+    "@types/text-encoding": "^0.0.39",
+    "tsx": "^4.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=6.0.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120,
+    "trailingComma": "none"
+  },
+  "dependencies": {
+    "@dcl-sdk/utils": "^1.2.8",
+    "@dcl/schemas": "^12.0.0",
+    "core-js": "^3.34.0",
+    "dcl-npc-toolkit": "1.2.2",
+    "html-to-text": "^9.0.5",
+    "js-sha3": "^0.9.3",
+    "marked": "^12.0.1"
+  },
+  "bundleDependencies": [
+    "@dcl-sdk/utils"
+  ]
+}

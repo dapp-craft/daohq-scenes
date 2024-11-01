@@ -1,0 +1,46 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "[TEST] Coffee Space",
+    "description": "Coffee Space meeting room",
+    "navmapThumbnail": "images/scene-thumbnail.png",
+    "favicon": "favicon_asset"
+  },
+  "owner": "Decentraland",
+  "contact": {
+    "name": "DAPPCRAFT",
+    "email": ""
+  },
+  "main": "bin/index.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "0,0",
+      "0,1",
+      "1,0",
+      "1,1"
+    ],
+    "base": "0,0"
+  },
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 15,
+        "y": 18,
+        "z": 25
+      },
+      "cameraTarget": {
+        "x": 16,
+        "y": 18,
+        "z": 16
+      }
+    }
+  ],
+  "requiredPermissions": [],
+  "allowedMediaHostnames": [],
+  "featureToggles": {},
+  "name": "coffee"
+}

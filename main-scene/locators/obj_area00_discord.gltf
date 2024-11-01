@@ -1,0 +1,1 @@
+{"asset": {"generator": "Khronos glTF Blender I/O v4.1.63", "version": "2.0"}, "scene": 0, "scenes": [{"name": "Scene", "nodes": [0, 1]}], "nodes": [{"name": "discord_screen.001", "rotation": [0, -0.984, 0, 0.175], "translation": [-2.127, 2.199, -5.232]}, {"name": "discord_screen.002", "rotation": [0, 0.981, 0, 0.195], "translation": [1.990, 2.199, -5.286]}]}

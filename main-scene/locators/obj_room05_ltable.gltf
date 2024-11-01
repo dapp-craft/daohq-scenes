@@ -1,0 +1,1 @@
+{"asset": {"generator": "Khronos glTF Blender I/O v4.1.63", "version": "2.0"}, "scene": 0, "scenes": [{"name": "Scene", "nodes": [0, 1]}], "nodes": [{"name": "obj_ltable.901", "rotation": [0, -0.817, 0, 0.577], "translation": [61.618, 17.471, -16.466]}, {"name": "obj_ltable.902", "rotation": [0, -0.012, 0, 1.000], "translation": [55.141, 17.471, -26.077]}]}

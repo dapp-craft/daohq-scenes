@@ -1,0 +1,1 @@
+{"asset": {"generator": "Khronos glTF Blender I/O v4.2.57", "version": "2.0"}, "scene": 0, "scenes": [{"name": "Scene", "nodes": [0, 1, 2]}], "nodes": [{"name": "obj_avatars03.001", "translation": [0.001, 0.001, -0.001]}, {"name": "obj_avatars01.001", "translation": [0.001, 0.001, -0.001]}, {"name": "obj_avatars02.001", "translation": [0.001, 0.001, -0.001]}]}

@@ -1,0 +1,50 @@
+{
+  "display": {
+    "title": "atari-arcade-cabinets",
+    "favicon": "favicon_asset"
+  },
+  "contact": {
+    "name": "author-name",
+    "email": ""
+  },
+  "owner": "",
+  "scene": {
+    "parcels": [
+      "0,0","0,1",
+      "1,0","1,1"
+    ],
+    "base": "0,0"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": []
+  },
+  "requiredPermissions": [],
+  "main": "bin/game.js",
+  "tags": [],
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 8,
+        "y": 0,
+        "z": 8
+      },
+      "cameraTarget": {
+        "x": 16,
+        "y": 2,
+        "z": 16
+      }
+    }
+  ],
+  "worldConfiguration": {
+    "name": "snikes.dcl.eth"
+  }
+}

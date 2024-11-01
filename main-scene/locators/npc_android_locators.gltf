@@ -1,0 +1,1 @@
+{"asset": {"generator": "Khronos glTF Blender I/O v4.1.63", "version": "2.0"}, "scene": 0, "scenes": [{"name": "Scene", "nodes": [0]}], "nodes": [{"name": "npc_android.001", "rotation": [0, -0.135, 0, 0.991], "scale": [1.250, 1.250, 1.250], "translation": [-11.305, 0.300, 47.406]}]}

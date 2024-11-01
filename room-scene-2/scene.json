@@ -1,0 +1,48 @@
+{
+  "ecs7": true,
+  "runtimeVersion": "7",
+  "display": {
+    "title": "[TEST] Atom Space",
+    "description": "Atom Space meeting room",
+    "navmapThumbnail": "images/scene-thumbnail.png",
+    "favicon": "favicon_asset"
+  },
+  "owner": "Decentraland",
+  "contact": {
+    "name": "DAPPCRAFT",
+    "email": ""
+  },
+  "main": "bin/index.js",
+  "tags": [],
+  "scene": {
+    "parcels": [
+      "0,0",
+      "0,1",
+      "0,2",
+      "1,0",
+      "1,1",
+      "1,2"
+    ],
+    "base": "0,0"
+  },
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 16,
+        "y": 18,
+        "z": 36
+      },
+      "cameraTarget": {
+        "x": 16,
+        "y": 18,
+        "z": 24
+      }
+    }
+  ],
+  "requiredPermissions": [],
+  "allowedMediaHostnames": [],
+  "featureToggles": {},
+  "name": "atom"
+}
