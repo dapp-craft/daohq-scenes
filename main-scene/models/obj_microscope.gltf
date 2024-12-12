@@ -1,8 +1,11 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v4.1.63",
+		"generator":"Khronos glTF Blender I/O v4.3.47",
 		"version":"2.0"
 	},
+	"extensionsUsed":[
+		"KHR_materials_specular"
+	],
 	"scene":0,
 	"scenes":[
 		{
@@ -33,6 +36,11 @@
 			"emissiveTexture":{
 				"index":0
 			},
+			"extensions":{
+				"KHR_materials_specular":{
+					"specularFactor":0
+				}
+			},
 			"name":"obj_microscope",
 			"pbrMetallicRoughness":{
 				"baseColorTexture":{
@@ -44,7 +52,7 @@
 	],
 	"meshes":[
 		{
-			"name":"Cylinder.003",
+			"name":"obj_microscope",
 			"primitives":[
 				{
 					"attributes":{
@@ -58,7 +66,7 @@
 			]
 		},
 		{
-			"name":"Cube.003",
+			"name":"obj_microscope_collider",
 			"primitives":[
 				{
 					"attributes":{
@@ -97,119 +105,119 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":1801,
+			"count":10782,
 			"max":[
-				0.22625884413719177,
-				0.8942239284515381,
-				0.3309049904346466
+				-45.623287200927734,
+				19.570371627807617,
+				-0.003858327865600586
 			],
 			"min":[
-				-0.22233198583126068,
-				0.0048433952033519745,
-				-0.3275567889213562
+				-64.52263641357422,
+				17.42262077331543,
+				-20.638704299926758
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":1801,
+			"count":10782,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":1801,
+			"count":10782,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5123,
-			"count":3960,
+			"count":23760,
 			"type":"SCALAR"
 		},
 		{
 			"bufferView":4,
 			"componentType":5126,
-			"count":24,
+			"count":84,
 			"max":[
-				0.2178996503353119,
-				0.8079809546470642,
-				0.2898837625980377
+				-45.66569519042969,
+				19.484128952026367,
+				-0.01563847064971924
 			],
 			"min":[
-				-0.21365369856357574,
-				0.005094241816550493,
-				-0.27569422125816345
+				-64.5643081665039,
+				17.42287254333496,
+				-20.620115280151367
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":5,
 			"componentType":5126,
-			"count":24,
+			"count":84,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":6,
 			"componentType":5126,
-			"count":24,
+			"count":84,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":7,
 			"componentType":5123,
-			"count":36,
+			"count":216,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":21612,
+			"byteLength":129384,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":21612,
-			"byteOffset":21612,
+			"byteLength":129384,
+			"byteOffset":129384,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":14408,
-			"byteOffset":43224,
+			"byteLength":86256,
+			"byteOffset":258768,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":7920,
-			"byteOffset":57632,
+			"byteLength":47520,
+			"byteOffset":345024,
 			"target":34963
 		},
 		{
 			"buffer":0,
-			"byteLength":288,
-			"byteOffset":65552,
+			"byteLength":1008,
+			"byteOffset":392544,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":288,
-			"byteOffset":65840,
+			"byteLength":1008,
+			"byteOffset":393552,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":192,
-			"byteOffset":66128,
+			"byteLength":672,
+			"byteOffset":394560,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":72,
-			"byteOffset":66320,
+			"byteLength":432,
+			"byteOffset":395232,
 			"target":34963
 		}
 	],
@@ -221,7 +229,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":66392,
+			"byteLength":395664,
 			"uri":"obj_microscope.bin"
 		}
 	]

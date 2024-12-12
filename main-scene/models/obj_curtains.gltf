@@ -1,11 +1,10 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v4.1.63",
+		"generator":"Khronos glTF Blender I/O v4.3.47",
 		"version":"2.0"
 	},
 	"extensionsUsed":[
-		"KHR_materials_specular",
-		"KHR_materials_ior"
+		"KHR_materials_specular"
 	],
 	"scene":0,
 	"scenes":[
@@ -20,11 +19,11 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"obj_curtains_collider"
+			"name":"obj_curtains"
 		},
 		{
 			"mesh":1,
-			"name":"obj_curtains"
+			"name":"obj_curtains_collider"
 		}
 	],
 	"materials":[
@@ -41,9 +40,6 @@
 			"extensions":{
 				"KHR_materials_specular":{
 					"specularFactor":0
-				},
-				"KHR_materials_ior":{
-					"ior":1.4500000476837158
 				}
 			},
 			"name":"obj_curtains",
@@ -57,28 +53,28 @@
 	],
 	"meshes":[
 		{
-			"name":"Mesh.186",
+			"name":"obj_curtains",
 			"primitives":[
 				{
 					"attributes":{
 						"POSITION":0,
-						"NORMAL":1
+						"NORMAL":1,
+						"TEXCOORD_0":2
 					},
-					"indices":2
+					"indices":3,
+					"material":0
 				}
 			]
 		},
 		{
-			"name":"Mesh.187",
+			"name":"obj_curtains_collider",
 			"primitives":[
 				{
 					"attributes":{
-						"POSITION":3,
-						"NORMAL":4,
-						"TEXCOORD_0":5
+						"POSITION":4,
+						"NORMAL":5
 					},
-					"indices":6,
-					"material":0
+					"indices":6
 				}
 			]
 		}
@@ -104,107 +100,107 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":1164,
+			"count":16702,
 			"max":[
-				4.95943021774292,
-				4.000560760498047,
-				0.39922797679901123
+				71.7215576171875,
+				28.203495025634766,
+				58.51278305053711
 			],
 			"min":[
-				-4.962925434112549,
-				0.16094660758972168,
-				-0.9535026550292969
+				-64.52534484863281,
+				16.673072814941406,
+				-35.890098571777344
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":1164,
+			"count":16702,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
-			"componentType":5123,
-			"count":4302,
-			"type":"SCALAR"
+			"componentType":5126,
+			"count":16702,
+			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
-			"componentType":5126,
-			"count":1193,
-			"max":[
-				4.95943021774292,
-				4.000560760498047,
-				0.39922797679901123
-			],
-			"min":[
-				-4.962925434112549,
-				0.16094660758972168,
-				-0.9535026550292969
-			],
-			"type":"VEC3"
+			"componentType":5123,
+			"count":60228,
+			"type":"SCALAR"
 		},
 		{
 			"bufferView":4,
 			"componentType":5126,
-			"count":1193,
+			"count":13368,
+			"max":[
+				71.7215576171875,
+				28.203495025634766,
+				58.51278305053711
+			],
+			"min":[
+				-64.52534484863281,
+				16.673072814941406,
+				-35.890098571777344
+			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":5,
 			"componentType":5126,
-			"count":1193,
-			"type":"VEC2"
+			"count":13368,
+			"type":"VEC3"
 		},
 		{
 			"bufferView":6,
 			"componentType":5123,
-			"count":4302,
+			"count":60228,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":13968,
+			"byteLength":200424,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":13968,
-			"byteOffset":13968,
+			"byteLength":200424,
+			"byteOffset":200424,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":8604,
-			"byteOffset":27936,
+			"byteLength":133616,
+			"byteOffset":400848,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteLength":120456,
+			"byteOffset":534464,
 			"target":34963
 		},
 		{
 			"buffer":0,
-			"byteLength":14316,
-			"byteOffset":36540,
+			"byteLength":160416,
+			"byteOffset":654920,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":14316,
-			"byteOffset":50856,
+			"byteLength":160416,
+			"byteOffset":815336,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":9544,
-			"byteOffset":65172,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":8604,
-			"byteOffset":74716,
+			"byteLength":120456,
+			"byteOffset":975752,
 			"target":34963
 		}
 	],
@@ -216,7 +212,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":83320,
+			"byteLength":1096208,
 			"uri":"obj_curtains.bin"
 		}
 	]

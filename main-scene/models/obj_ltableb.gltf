@@ -1,11 +1,10 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v4.1.63",
+		"generator":"Khronos glTF Blender I/O v4.3.47",
 		"version":"2.0"
 	},
 	"extensionsUsed":[
-		"KHR_materials_specular",
-		"KHR_materials_ior"
+		"KHR_materials_specular"
 	],
 	"scene":0,
 	"scenes":[
@@ -40,9 +39,6 @@
 			"extensions":{
 				"KHR_materials_specular":{
 					"specularFactor":0
-				},
-				"KHR_materials_ior":{
-					"ior":1.4500000476837158
 				}
 			},
 			"name":"obj_ltableb",
@@ -56,7 +52,7 @@
 	],
 	"meshes":[
 		{
-			"name":"Mesh.172",
+			"name":"obj_ltableb",
 			"primitives":[
 				{
 					"attributes":{
@@ -70,7 +66,7 @@
 			]
 		},
 		{
-			"name":"Mesh.173",
+			"name":"obj_ltableb_collider",
 			"primitives":[
 				{
 					"attributes":{
@@ -111,14 +107,14 @@
 			"componentType":5126,
 			"count":456,
 			"max":[
-				4.660819053649902,
-				0.8727079629898071,
-				0.7980458736419678
+				46.43335723876953,
+				17.39067268371582,
+				31.96700668334961
 			],
 			"min":[
-				-4.653902053833008,
-				-0.0008415579795837402,
-				-1.1932852268218994
+				44.25184631347656,
+				16.51712417602539,
+				22.661849975585938
 			],
 			"type":"VEC3"
 		},
@@ -145,14 +141,14 @@
 			"componentType":5126,
 			"count":188,
 			"max":[
-				4.679896354675293,
-				0.8727079629898071,
-				0.7936003804206848
+				46.42992401123047,
+				17.39067268371582,
+				31.992584228515625
 			],
 			"min":[
-				-4.679896354675293,
-				0,
-				-1.1932852268218994
+				44.25184631347656,
+				16.51796531677246,
+				22.642337799072266
 			],
 			"type":"VEC3"
 		},

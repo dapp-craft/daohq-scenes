@@ -1,11 +1,10 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v4.1.63",
+		"generator":"Khronos glTF Blender I/O v4.3.47",
 		"version":"2.0"
 	},
 	"extensionsUsed":[
-		"KHR_materials_specular",
-		"KHR_materials_ior"
+		"KHR_materials_specular"
 	],
 	"scene":0,
 	"scenes":[
@@ -20,11 +19,11 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"obj_bridge_collider"
+			"name":"obj_bridge"
 		},
 		{
 			"mesh":1,
-			"name":"obj_bridge"
+			"name":"obj_bridge_collider"
 		}
 	],
 	"materials":[
@@ -40,9 +39,6 @@
 			"extensions":{
 				"KHR_materials_specular":{
 					"specularFactor":0
-				},
-				"KHR_materials_ior":{
-					"ior":1.4500000476837158
 				}
 			},
 			"name":"obj_bridge",
@@ -56,7 +52,7 @@
 	],
 	"meshes":[
 		{
-			"name":"Mesh.194",
+			"name":"obj_bridge",
 			"primitives":[
 				{
 					"attributes":{
@@ -64,12 +60,13 @@
 						"NORMAL":1,
 						"TEXCOORD_0":2
 					},
-					"indices":3
+					"indices":3,
+					"material":0
 				}
 			]
 		},
 		{
-			"name":"Mesh.195",
+			"name":"obj_bridge_collider",
 			"primitives":[
 				{
 					"attributes":{
@@ -77,8 +74,7 @@
 						"NORMAL":5,
 						"TEXCOORD_0":6
 					},
-					"indices":7,
-					"material":0
+					"indices":7
 				}
 			]
 		}
@@ -109,119 +105,119 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":243,
+			"count":5578,
 			"max":[
-				2.6983180046081543,
-				2.08127498626709,
-				0.911730170249939
+				33.07876205444336,
+				2.264075994491577,
+				34.65766906738281
 			],
 			"min":[
-				-2.6958682537078857,
-				0.0003638267517089844,
-				-0.9117300510406494
+				17.847360610961914,
+				0.30000001192092896,
+				16.479270935058594
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":243,
+			"count":5578,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":243,
+			"count":5578,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5123,
-			"count":522,
+			"count":17388,
 			"type":"SCALAR"
 		},
 		{
 			"bufferView":4,
 			"componentType":5126,
-			"count":2789,
+			"count":342,
 			"max":[
-				2.6983184814453125,
-				1.964076042175293,
-				0.911730170249939
+				33.07876205444336,
+				2.381274938583374,
+				34.65766906738281
 			],
 			"min":[
-				-2.695868492126465,
-				0,
-				-0.9117299914360046
+				17.847360610961914,
+				0.30036383867263794,
+				16.479270935058594
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":5,
 			"componentType":5126,
-			"count":2789,
+			"count":342,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":6,
 			"componentType":5126,
-			"count":2789,
+			"count":342,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":7,
 			"componentType":5123,
-			"count":8694,
+			"count":1044,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":2916,
+			"byteLength":66936,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":2916,
-			"byteOffset":2916,
+			"byteLength":66936,
+			"byteOffset":66936,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1944,
-			"byteOffset":5832,
+			"byteLength":44624,
+			"byteOffset":133872,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":1044,
-			"byteOffset":7776,
+			"byteLength":34776,
+			"byteOffset":178496,
 			"target":34963
 		},
 		{
 			"buffer":0,
-			"byteLength":33468,
-			"byteOffset":8820,
+			"byteLength":4104,
+			"byteOffset":213272,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":33468,
-			"byteOffset":42288,
+			"byteLength":4104,
+			"byteOffset":217376,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":22312,
-			"byteOffset":75756,
+			"byteLength":2736,
+			"byteOffset":221480,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":17388,
-			"byteOffset":98068,
+			"byteLength":2088,
+			"byteOffset":224216,
 			"target":34963
 		}
 	],
@@ -233,7 +229,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":115456,
+			"byteLength":226304,
 			"uri":"obj_bridge.bin"
 		}
 	]

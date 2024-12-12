@@ -1,11 +1,10 @@
 {
 	"asset":{
-		"generator":"Khronos glTF Blender I/O v4.1.63",
+		"generator":"Khronos glTF Blender I/O v4.3.47",
 		"version":"2.0"
 	},
 	"extensionsUsed":[
-		"KHR_materials_specular",
-		"KHR_materials_ior"
+		"KHR_materials_specular"
 	],
 	"scene":0,
 	"scenes":[
@@ -40,9 +39,6 @@
 			"extensions":{
 				"KHR_materials_specular":{
 					"specularFactor":0
-				},
-				"KHR_materials_ior":{
-					"ior":1.4500000476837158
 				}
 			},
 			"name":"obj_floppy",
@@ -56,7 +52,7 @@
 	],
 	"meshes":[
 		{
-			"name":"Mesh.301",
+			"name":"obj_floppy",
 			"primitives":[
 				{
 					"attributes":{
@@ -70,7 +66,7 @@
 			]
 		},
 		{
-			"name":"Cube.003",
+			"name":"obj_floppy_collider",
 			"primitives":[
 				{
 					"attributes":{
@@ -109,119 +105,119 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":526,
+			"count":30450,
 			"max":[
-				0.20433549582958221,
-				0.07038121670484543,
-				0.20433564484119415
+				62.80329132080078,
+				21.549808502197266,
+				-13.501938819885254
 			],
 			"min":[
-				-0.20433540642261505,
-				-0.00027223918004892766,
-				-0.20433518290519714
+				-58.3177604675293,
+				17.921627044677734,
+				-71.95686340332031
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":526,
+			"count":30450,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":526,
+			"count":30450,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":3,
 			"componentType":5123,
-			"count":1656,
+			"count":90720,
 			"type":"SCALAR"
 		},
 		{
 			"bufferView":4,
 			"componentType":5126,
-			"count":24,
+			"count":546,
 			"max":[
-				0.20433549582958221,
-				0.07010900974273682,
-				0.20433564484119415
+				62.80329132080078,
+				21.549808502197266,
+				-13.501938819885254
 			],
 			"min":[
-				-0.20433540642261505,
-				-0.00027223830693401396,
-				-0.20433515310287476
+				-58.337303161621094,
+				17.921627044677734,
+				-71.95686340332031
 			],
 			"type":"VEC3"
 		},
 		{
 			"bufferView":5,
 			"componentType":5126,
-			"count":24,
+			"count":546,
 			"type":"VEC3"
 		},
 		{
 			"bufferView":6,
 			"componentType":5126,
-			"count":24,
+			"count":546,
 			"type":"VEC2"
 		},
 		{
 			"bufferView":7,
 			"componentType":5123,
-			"count":36,
+			"count":1404,
 			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":6312,
+			"byteLength":365400,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":6312,
-			"byteOffset":6312,
+			"byteLength":365400,
+			"byteOffset":365400,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":4208,
-			"byteOffset":12624,
+			"byteLength":243600,
+			"byteOffset":730800,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":3312,
-			"byteOffset":16832,
+			"byteLength":181440,
+			"byteOffset":974400,
 			"target":34963
 		},
 		{
 			"buffer":0,
-			"byteLength":288,
-			"byteOffset":20144,
+			"byteLength":6552,
+			"byteOffset":1155840,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":288,
-			"byteOffset":20432,
+			"byteLength":6552,
+			"byteOffset":1162392,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":192,
-			"byteOffset":20720,
+			"byteLength":4368,
+			"byteOffset":1168944,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":72,
-			"byteOffset":20912,
+			"byteLength":2808,
+			"byteOffset":1173312,
 			"target":34963
 		}
 	],
@@ -233,7 +229,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":20984,
+			"byteLength":1176120,
 			"uri":"obj_floppy.bin"
 		}
 	]

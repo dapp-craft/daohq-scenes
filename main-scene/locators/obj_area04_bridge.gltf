@@ -1,1 +1,0 @@
-{"asset": {"generator": "Khronos glTF Blender I/O v4.1.63", "version": "2.0"}, "scene": 0, "scenes": [{"name": "Scene", "nodes": [0, 1]}], "nodes": [{"name": "obj_bridge.401", "rotation": [0, -0.369, 0, 0.930], "translation": [20.435, 0.300, 18.991]}, {"name": "obj_bridge.402", "rotation": [0, 0.109, 0, 0.994], "translation": [30.247, 0.300, 33.184]}]}
